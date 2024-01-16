@@ -1,14 +1,14 @@
 # MGN
 code for Multi-Directional Guidance Network for Fine-Grained Visual Classification
-一、项目名称与简介
+##一、项目名称与简介
 用于细粒度图像分类的多阶段多层次多特征融合网络
-二、文件夹列表
+##二、文件夹列表
 模型：backbone.py、model.py
 配置：config.py
 数据集：datesets.py
 训练：train.py
 
-三、所需环境
+##三、所需环境
 Package                 Version
 ----------------------- --------------------
 absl-py                 1.4.0
@@ -94,8 +94,6 @@ wget                    3.2
 wheel                   0.37.1
 zipp                    3.6.0
 
-四、使用方法（★极其重要）
+##四、使用方法（★极其重要）
 1、数据集： CUB-200-2011，Stanford Cars 和FGVC Aircraft
 2、训练：python train.py
-五、其他
-比较特殊的注意事项。
